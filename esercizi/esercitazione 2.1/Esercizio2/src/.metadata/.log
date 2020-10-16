@@ -1,0 +1,74 @@
+!SESSION 2020-10-16 21:23:03.975 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/davidepersico/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/davidepersico/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-16 21:23:43.755
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-10-16 21:23:43.791
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-10-16 21:34:53.051 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/davidepersico/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/davidepersico/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-16 21:35:06.935
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-10-16 21:35:06.980
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-10-16 21:37:14.234
+!MESSAGE file:////Users/davidepersico/Desktop/SyncLab github/Sync-Lab-esercizi/esercizi: not found.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: file:////Users/davidepersico/Desktop/SyncLab github/Sync-Lab-esercizi/esercizi: not found.
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:222)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:161)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$8.run(SourceBranchPage.java:340)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: file:////Users/davidepersico/Desktop/SyncLab github/Sync-Lab-esercizi/esercizi: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:147)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:117)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:583)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-10-16 21:37:45.995
+!MESSAGE file:////Users/davidepersico/Desktop/SyncLab/Java/esercizi: not found.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: file:////Users/davidepersico/Desktop/SyncLab/Java/esercizi: not found.
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:222)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:161)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$8.run(SourceBranchPage.java:340)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: file:////Users/davidepersico/Desktop/SyncLab/Java/esercizi: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:147)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:117)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:583)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-10-16 21:37:56.240
+!MESSAGE file:////Users/davidepersico/Desktop/SyncLab/Java/esercizi/esercitazione 2.1: not found.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: file:////Users/davidepersico/Desktop/SyncLab/Java/esercizi/esercitazione 2.1: not found.
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:222)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:161)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$8.run(SourceBranchPage.java:340)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: file:////Users/davidepersico/Desktop/SyncLab/Java/esercizi/esercitazione 2.1: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:147)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:117)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:583)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	... 4 more
